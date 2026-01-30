@@ -7,8 +7,9 @@ function App() {
 
   const addStudent = (name) => {
     const newStudent = {
-      id: Date.now(),
-      name,
+      id: 1,
+      name:"John Doe",
+      course: "Frontend Development",
       isActive: true,
     };
     setStudents([...students, newStudent]);
